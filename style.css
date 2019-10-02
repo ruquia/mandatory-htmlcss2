@@ -1,0 +1,127 @@
+header{
+    background-color: #000079;
+    width: 100%;
+}
+.h h2,.h ul{
+    display: inline;
+    color: white;
+}
+h2{
+    padding-left: 2%;
+}
+ul li {
+     display: inline-block;
+    margin: 0px 18px;
+}
+
+ul li a {
+    color: white;
+}
+
+@media (max-width: 700px) {
+    ul li{
+        display: inline-block !important;
+        float: right;
+        margin: 0;
+        padding: 0;
+
+   }
+    ul {
+        display: none !important;
+    }
+   
+
+    h2{
+        padding-left: 36%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slides {
+    position: relative;
+    float: left;
+    margin: 1px;
+    overflow: hidden;
+    margin: 20px 40px;
+}
+.slides::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.slides img {
+   width: 100%;
+    display: block;
+}
+.clearfix{
+    clear: both;
+}
+
+.first-row {
+ width: 12.60%;
+}
+
+.second-row {
+    width: 42.50%;
+}
+
+@media (max-width: 500px)  {
+    .first-row{
+           width: 26%;
+    }
+    .second-row{
+        width: 77%
+        
+    }
+    
+}
+
+@media (max-width: 640px) and (min-width: 320px) {
+    .first-row {
+        width: 22%;
+    }
+    
+}
+
+
+
+@media ( max-width: 1024px) and (min-width:768px ) {
+    .second-row {
+        width: 37%;
+    }
+
+
+}
