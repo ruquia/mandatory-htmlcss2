@@ -1,73 +1,43 @@
-header{
-    background-color: #000079;
-    width: 100%;
-}
-.h h2,.h ul{
-    display: inline;
-    color: white;
-}
-h2{
-    padding-left: 2%;
-}
-ul li {
-     display: inline-block;
-    margin: 0px 18px;
-}
+ .heading {
+     position: relative;
+     background-color: #314a80;
+     height: 67px;
+     z-index: 1;
+ }
 
-ul li a {
-    color: white;
-}
-
-@media (max-width: 700px) {
-    ul li{
-        display: inline-block !important;
-        float: right;
-        margin: 0;
-        padding: 0;
-
-   }
-    ul {
-        display: none !important;
-    }
+ .child {
+     position: absolute;
    
+ }
 
-    h2{
-        padding-left: 36%;
-    }
+ .one {
+     color: white;
+     left: 10px;
+     top: 10px;
+ }
+
+ .two {
+     left: 20%;
+     top: 10px;
+ }
+ .child ul li {
+     display: inline-block;
+     margin: 12px;
+ }
+ .child ul li a{
+     color: white;
+ }
+ @media (max-width: 700px) {
+     .two {
+         display: none;
+     }
+     .one {
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .slides {
     position: relative;
     float: left;
@@ -91,7 +61,7 @@ ul li a {
 }
 
 .first-row {
- width: 12.60%;
+ width: 12.69%;
 }
 
 .second-row {
